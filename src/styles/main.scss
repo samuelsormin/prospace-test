@@ -124,3 +124,38 @@ header {
   background-color:#006EB7;
   border:1px solid #006EB7;
 }
+
+button {
+  &.clear {
+    background-color:transparent;
+    border:0;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+
+    i {
+      color:#aaa;
+      transition:.5s all;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+}
+
+.previous {
+  font-size:18px;
+  margin-bottom:1.6rem;
+  display:block;
+  color:#888;
+  transition:.5s all;
+}
+
+.previous:hover {
+  color:#333;
+
+  i {
+    color:#f39c12;
+  }
+}
